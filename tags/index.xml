@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Laments of the Struggling Researcher</title>
-    <link>127.0.0.1/tags/</link>
+    <link>https://thexavier666.github.io/tags/</link>
     <description>Recent content in Tags on Laments of the Struggling Researcher</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
@@ -11,24 +11,24 @@
     <copyright>(c) 2017 Sumitro Bhaumik</copyright>
     <lastBuildDate>Mon, 19 Jun 2017 19:41:32 +0530</lastBuildDate>
     
-	<atom:link href="127.0.0.1/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thexavier666.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Excited</title>
-      <link>127.0.0.1/tags/excited/</link>
+      <link>https://thexavier666.github.io/tags/excited/</link>
       <pubDate>Mon, 19 Jun 2017 19:41:32 +0530</pubDate>
       <author>sumitros@gmail.com (Sumitro Bhaumik)</author>
-      <guid>127.0.0.1/tags/excited/</guid>
+      <guid>https://thexavier666.github.io/tags/excited/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>127.0.0.1/tags/hugo/</link>
+      <link>https://thexavier666.github.io/tags/hugo/</link>
       <pubDate>Mon, 19 Jun 2017 19:41:32 +0530</pubDate>
       <author>sumitros@gmail.com (Sumitro Bhaumik)</author>
-      <guid>127.0.0.1/tags/hugo/</guid>
+      <guid>https://thexavier666.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     
