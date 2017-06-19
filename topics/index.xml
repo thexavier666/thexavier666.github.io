@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Topics on Laments of the Struggling Researcher</title>
+    <link>127.0.0.1/topics/</link>
+    <description>Recent content in Topics on Laments of the Struggling Researcher</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-EN</language>
+    <managingEditor>sumitros@gmail.com (Sumitro Bhaumik)</managingEditor>
+    <webMaster>sumitros@gmail.com (Sumitro Bhaumik)</webMaster>
+    <copyright>(c) 2017 Sumitro Bhaumik</copyright>
+    <lastBuildDate>Mon, 19 Jun 2017 19:41:32 +0530</lastBuildDate>
+    
+	<atom:link href="127.0.0.1/topics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Topic 1</title>
+      <link>127.0.0.1/topics/topic-1/</link>
+      <pubDate>Mon, 19 Jun 2017 19:41:32 +0530</pubDate>
+      <author>sumitros@gmail.com (Sumitro Bhaumik)</author>
+      <guid>127.0.0.1/topics/topic-1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Laments of the Struggling Researcher</title>
+    <link>127.0.0.1/post/</link>
+    <description>Recent content in Posts on Laments of the Struggling Researcher</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-EN</language>
+    <managingEditor>sumitros@gmail.com (Sumitro Bhaumik)</managingEditor>
+    <webMaster>sumitros@gmail.com (Sumitro Bhaumik)</webMaster>
+    <copyright>(c) 2017 Sumitro Bhaumik</copyright>
+    <lastBuildDate>Mon, 19 Jun 2017 19:41:32 +0530</lastBuildDate>
+    
+	<atom:link href="127.0.0.1/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo is nice!</title>
+      <link>127.0.0.1/2017/06/19/hugo-is-nice/</link>
+      <pubDate>Mon, 19 Jun 2017 19:41:32 +0530</pubDate>
+      <author>sumitros@gmail.com (Sumitro Bhaumik)</author>
+      <guid>127.0.0.1/2017/06/19/hugo-is-nice/</guid>
+      <description>This is my first post in this site (Technically)
+Since I am not the sharpest tool in the shed, I needed to try out Hugo for an entire afternoon to make it work properly.
+I had some difficulty in understanding how to setup the custom themes. Then I had the brilliant idea of moving the theme.toml file to the Hugo directory and lo, the site was created properly!
+This theme that I&amp;rsquo;m using is called Hyde-y, which is extremely clean, Material-designed, and hopefully responsive.</description>
+    </item>
+    
+  </channel>
+</rss>
