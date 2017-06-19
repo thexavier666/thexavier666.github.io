@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Laments of the Struggling Researcher</title>
-    <link>https://thexavier666.github.io/post/</link>
-    <description>Recent content in Posts on Laments of the Struggling Researcher</description>
+    <title>Tutorial on Laments of the Struggling Researcher</title>
+    <link>https://thexavier666.github.io/tags/tutorial/</link>
+    <description>Recent content in Tutorial on Laments of the Struggling Researcher</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
     <managingEditor>sumitros@gmail.com (Sumitro Bhaumik)</managingEditor>
@@ -11,7 +11,7 @@
     <copyright>(c) 2017 Sumitro Bhaumik</copyright>
     <lastBuildDate>Mon, 19 Jun 2017 23:23:31 +0530</lastBuildDate>
     
-	<atom:link href="https://thexavier666.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thexavier666.github.io/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,18 +21,6 @@
       <author>sumitros@gmail.com (Sumitro Bhaumik)</author>
       <guid>https://thexavier666.github.io/2017/06/19/using-hugo/</guid>
       <description>Installing Hugo is not a big deal. You just have to download the proper deb file from their site. But using it, is another issue. The main problem that I faced was using the themes. Every theme has a toml configuration file which is in charge of all the web elements (forgive me misusing the terms for I don&amp;rsquo;t web development too well). The problem is that theme makers use different toml files; some are feature-rich and some are barren.</description>
-    </item>
-    
-    <item>
-      <title>Hugo is nice!</title>
-      <link>https://thexavier666.github.io/2017/06/19/hugo-is-nice/</link>
-      <pubDate>Mon, 19 Jun 2017 19:41:32 +0530</pubDate>
-      <author>sumitros@gmail.com (Sumitro Bhaumik)</author>
-      <guid>https://thexavier666.github.io/2017/06/19/hugo-is-nice/</guid>
-      <description>This is my first post in this site (Technically)
-Since I am not the sharpest tool in the shed, I needed to try out Hugo for an entire afternoon to make it work properly.
-I had some difficulty in understanding how to setup the custom themes. Then I had the brilliant idea of moving the theme.toml file to the Hugo directory and lo, the site was created properly!
-This theme that I&amp;rsquo;m using is called Hyde-y, which is extremely clean, Material-designed, and hopefully responsive.</description>
     </item>
     
   </channel>
