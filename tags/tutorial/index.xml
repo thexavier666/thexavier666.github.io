@@ -9,10 +9,20 @@
     <managingEditor>sumitros@gmail.com (Sumitro Bhaumik)</managingEditor>
     <webMaster>sumitros@gmail.com (Sumitro Bhaumik)</webMaster>
     <copyright>(c) 2017 Sumitro Bhaumik</copyright>
-    <lastBuildDate>Mon, 19 Jun 2017 23:23:31 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 20 Jun 2017 12:30:31 +0530</lastBuildDate>
     
 	<atom:link href="https://thexavier666.github.io/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Creating an actual OpenFlow-enabled Switch</title>
+      <link>https://thexavier666.github.io/2017/06/20/creating-an-actual-openflow-enabled-switch/</link>
+      <pubDate>Tue, 20 Jun 2017 12:30:31 +0530</pubDate>
+      <author>sumitros@gmail.com (Sumitro Bhaumik)</author>
+      <guid>https://thexavier666.github.io/2017/06/20/creating-an-actual-openflow-enabled-switch/</guid>
+      <description>Hardware needed to create a OpenFlow switch All of this should be available at a good computer hardware store. We ordered it from Amazon
+ PC with enough USB 3.0 ports PCI Express USB 3.0 card with extra ports if (1) is missing (See image) A PCI Express extender if (2) does not fit the cabinet USB 3.0 to Gigabit Ethernet adapters    PCI USB Card</description>
+    </item>
     
     <item>
       <title>Using Hugo and possible errors</title>
