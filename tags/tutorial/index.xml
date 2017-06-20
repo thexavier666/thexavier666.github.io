@@ -15,11 +15,11 @@
     
     
     <item>
-      <title>Using Hugo</title>
-      <link>https://thexavier666.github.io/2017/06/19/using-hugo/</link>
+      <title>Using Hugo and possible errors</title>
+      <link>https://thexavier666.github.io/2017/06/19/using-hugo-and-possible-errors/</link>
       <pubDate>Mon, 19 Jun 2017 23:23:31 +0530</pubDate>
       <author>sumitros@gmail.com (Sumitro Bhaumik)</author>
-      <guid>https://thexavier666.github.io/2017/06/19/using-hugo/</guid>
+      <guid>https://thexavier666.github.io/2017/06/19/using-hugo-and-possible-errors/</guid>
       <description>Installing Hugo is not a big deal. You just have to download the proper deb file from their site. But using it, is another issue. The main problem that I faced was using the themes. Every theme has a toml configuration file which is in charge of all the web elements (forgive me misusing the terms for I don&amp;rsquo;t web development too well). The problem is that theme makers use different toml files; some are feature-rich and some are barren.</description>
     </item>
     

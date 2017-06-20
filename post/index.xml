@@ -9,17 +9,27 @@
     <managingEditor>sumitros@gmail.com (Sumitro Bhaumik)</managingEditor>
     <webMaster>sumitros@gmail.com (Sumitro Bhaumik)</webMaster>
     <copyright>(c) 2017 Sumitro Bhaumik</copyright>
-    <lastBuildDate>Mon, 19 Jun 2017 23:23:31 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 20 Jun 2017 12:30:31 +0530</lastBuildDate>
     
 	<atom:link href="https://thexavier666.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Using Hugo</title>
-      <link>https://thexavier666.github.io/2017/06/19/using-hugo/</link>
+      <title>Creating an actual OpenFlow-enabled Switch</title>
+      <link>https://thexavier666.github.io/2017/06/20/creating-an-actual-openflow-enabled-switch/</link>
+      <pubDate>Tue, 20 Jun 2017 12:30:31 +0530</pubDate>
+      <author>sumitros@gmail.com (Sumitro Bhaumik)</author>
+      <guid>https://thexavier666.github.io/2017/06/20/creating-an-actual-openflow-enabled-switch/</guid>
+      <description>Hardware needed to create a OpenFlow switch All of this should be available at a good computer hardware store. We ordered it from Amazon
+ PC with enough USB 3.0 ports PCI Express USB 3.0 card with extra ports if (1) is missing (See image) A PCI Express extender if (2) does not fit the cabinet USB 3.0 to Gigabit Ethernet adapters    PCI USB Card</description>
+    </item>
+    
+    <item>
+      <title>Using Hugo and possible errors</title>
+      <link>https://thexavier666.github.io/2017/06/19/using-hugo-and-possible-errors/</link>
       <pubDate>Mon, 19 Jun 2017 23:23:31 +0530</pubDate>
       <author>sumitros@gmail.com (Sumitro Bhaumik)</author>
-      <guid>https://thexavier666.github.io/2017/06/19/using-hugo/</guid>
+      <guid>https://thexavier666.github.io/2017/06/19/using-hugo-and-possible-errors/</guid>
       <description>Installing Hugo is not a big deal. You just have to download the proper deb file from their site. But using it, is another issue. The main problem that I faced was using the themes. Every theme has a toml configuration file which is in charge of all the web elements (forgive me misusing the terms for I don&amp;rsquo;t web development too well). The problem is that theme makers use different toml files; some are feature-rich and some are barren.</description>
     </item>
     
