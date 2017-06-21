@@ -15,13 +15,13 @@
     
     
     <item>
-      <title>Creating an actual OpenFlow-enabled Switch</title>
-      <link>https://thexavier666.github.io/2017/06/20/creating-an-actual-openflow-enabled-switch/</link>
+      <title>Creating an actual OpenFlow-enabled Gigabit Switch</title>
+      <link>https://thexavier666.github.io/2017/06/20/creating-an-actual-openflow-enabled-gigabit-switch/</link>
       <pubDate>Tue, 20 Jun 2017 12:30:31 +0530</pubDate>
       <author>sumitros@gmail.com (Sumitro Bhaumik)</author>
-      <guid>https://thexavier666.github.io/2017/06/20/creating-an-actual-openflow-enabled-switch/</guid>
-      <description>Hardware needed to create a OpenFlow switch All of this should be available at a good computer hardware store. We ordered it from Amazon
- PC with enough USB 3.0 ports PCI Express USB 3.0 card with extra ports if (1) is missing (See image) A PCI Express extender if (2) does not fit the cabinet USB 3.0 to Gigabit Ethernet adapters    PCI USB Card</description>
+      <guid>https://thexavier666.github.io/2017/06/20/creating-an-actual-openflow-enabled-gigabit-switch/</guid>
+      <description>Development in SDN can be an issue if you do not have access to proper hardware. Good SDN switches can cost upwards of 2000$ (Rs 1,50,000). An alternative to dedicated switches would be makeshift switches using standard PCs, with a few extra ports. Here is a tutorial showing how to convert a PC into an SDN switch.
+Hardware needed to create a OpenFlow switch All of this should be available at a good computer hardware store.</description>
     </item>
     
   </channel>

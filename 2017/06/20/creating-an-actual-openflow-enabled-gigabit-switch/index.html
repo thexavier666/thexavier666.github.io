@@ -5,34 +5,40 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <title>Using Hugo and possible errors  &middot; Laments of the Struggling Researcher</title>
+  <title>Creating an actual OpenFlow-enabled Gigabit Switch  &middot; Laments of the Struggling Researcher</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<meta name="description" content="Smallish tutorial about using Hugo" />
+<meta name="description" content="Read the title. No clickbait over here" />
 
-<meta name="keywords" content="hugo, tutorial, ">
+<meta name="keywords" content="openflow, open vswitch, sdn, switch, tutorial, ">
 
 <link rel="author" href="http://plus.google.com/+SumitroBhaumik">
 
 
-<meta property="og:title" content="Using Hugo and possible errors  &middot; Laments of the Struggling Researcher ">
+<meta property="og:title" content="Creating an actual OpenFlow-enabled Gigabit Switch  &middot; Laments of the Struggling Researcher ">
 <meta property="og:site_name" content="Laments of the Struggling Researcher"/>
-<meta property="og:url" content="https://thexavier666.github.io/2017/06/19/using-hugo-and-possible-errors/" />
+<meta property="og:url" content="https://thexavier666.github.io/2017/06/20/creating-an-actual-openflow-enabled-gigabit-switch/" />
 <meta property="og:locale" content="en-EN">
 
 
 <meta property="og:type" content="article" />
-<meta property="og:description" content="Smallish tutorial about using Hugo"/>
-<meta property="og:article:published_time" content="2017-06-19T23:23:31&#43;05:30" />
-<meta property="og:article:modified_time" content="2017-06-19T23:23:31&#43;05:30" />
+<meta property="og:description" content="Read the title. No clickbait over here"/>
+<meta property="og:article:published_time" content="2017-06-20T12:30:31&#43;05:30" />
+<meta property="og:article:modified_time" content="2017-06-20T12:30:31&#43;05:30" />
 
   
     
-<meta property="og:article:tag" content="hugo">
+<meta property="og:article:tag" content="openflow">
+    
+<meta property="og:article:tag" content="open vswitch">
+    
+<meta property="og:article:tag" content="sdn">
+    
+<meta property="og:article:tag" content="switch">
     
 <meta property="og:article:tag" content="tutorial">
     
@@ -42,9 +48,9 @@
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@xavier666" />
 <meta name="twitter:creator" content="@xavier666" />
-<meta name="twitter:title" content="Using Hugo and possible errors" />
-<meta name="twitter:description" content="Smallish tutorial about using Hugo" />
-<meta name="twitter:url" content="https://thexavier666.github.io/2017/06/19/using-hugo-and-possible-errors/" />
+<meta name="twitter:title" content="Creating an actual OpenFlow-enabled Gigabit Switch" />
+<meta name="twitter:description" content="Read the title. No clickbait over here" />
+<meta name="twitter:url" content="https://thexavier666.github.io/2017/06/20/creating-an-actual-openflow-enabled-gigabit-switch/" />
 <meta name="twitter:domain" content="https://thexavier666.github.io/">
   
 
@@ -52,20 +58,20 @@
   {
     "@context": "http://schema.org",
     "@type": "Article",
-    "headline": "Using Hugo and possible errors",
+    "headline": "Creating an actual OpenFlow-enabled Gigabit Switch",
     "author": {
       "@type": "Person",
       "name": "http://profiles.google.com/+SumitroBhaumik?rel=author"
     },
-    "datePublished": "2017-06-19",
-    "description": "Smallish tutorial about using Hugo",
-    "wordCount": 465
+    "datePublished": "2017-06-20",
+    "description": "Read the title. No clickbait over here",
+    "wordCount": 345
   }
 </script>
 
 
 
-<link rel="canonical" href="https://thexavier666.github.io/2017/06/19/using-hugo-and-possible-errors/" />
+<link rel="canonical" href="https://thexavier666.github.io/2017/06/20/creating-an-actual-openflow-enabled-gigabit-switch/" />
 
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://thexavier666.github.io/touch-icon-144-precomposed.png">
 <link href="https://thexavier666.github.io/favicon.png" rel="icon">
@@ -179,21 +185,27 @@
 
 <article id="main-content" class="container main_content single">
   <header class="container hat">
-  <h1>Using Hugo and possible errors
+  <h1>Creating an actual OpenFlow-enabled Gigabit Switch
 </h1>
 
   <div class="metas">
-<time datetime="2017-06-19">19 Jun, 2017</time>
+<time datetime="2017-06-20">20 Jun, 2017</time>
 
 
   
     &middot; by Sumitro
   
-  &middot; Read in about 3 min
-  &middot; (465 Words)
+  &middot; Read in about 2 min
+  &middot; (345 Words)
   <br>
   
-<a class="label" href="https://thexavier666.github.io/tags/hugo">hugo</a>
+<a class="label" href="https://thexavier666.github.io/tags/openflow">openflow</a>
+
+<a class="label" href="https://thexavier666.github.io/tags/open-vswitch">open vswitch</a>
+
+<a class="label" href="https://thexavier666.github.io/tags/sdn">sdn</a>
+
+<a class="label" href="https://thexavier666.github.io/tags/switch">switch</a>
 
 <a class="label" href="https://thexavier666.github.io/tags/tutorial">tutorial</a>
 
@@ -206,64 +218,84 @@
   <div class="container content">
   
 
-<p><img src="../../../../images/hugo_logo.png" alt="Hugo is so colourful" /></p>
+<p><center><img src="../../../../images/openflow_logo.png" alt="OpenFlow Logo" /></center></p>
 
-<p>Installing Hugo is not a big deal. You just have to download the proper <code>deb</code> file from their <a href="https://github.com/gohugoio/hugo/releases/">site</a>. But using it, is another issue. The main problem that I faced was using the themes. Every theme has a <code>toml</code> configuration file which is in charge of all the web elements (forgive me misusing the terms for I don&rsquo;t web development too well). The problem is that theme makers use different <code>toml</code> files; some are feature-rich and some are barren. Therefore, I had a hard time understanding them. But after spending a solid 3-4 hours, I got the hang of it.</p>
+<p><br></p>
 
-<p>In this blog, I shall talk about how to properly deploy your site to some hosting space using Hugo. Follow the steps mentioned below</p>
+<p>Development in SDN can be an issue if you do not have access to proper hardware. Good SDN switches can cost upwards of 2000$ (Rs 1,50,000). An alternative to dedicated switches would be makeshift switches using standard PCs, with a few extra ports. Here is a tutorial showing how to convert a PC into an SDN switch.</p>
 
-<h3 id="creating-the-site-using-hugo">Creating the site using Hugo</h3>
+<h3 id="hardware-needed-to-create-a-openflow-switch">Hardware needed to create a OpenFlow switch</h3>
 
-<p>I shall not discuss this as this is very well discussed in <a href="https://gohugo.io/overview/quickstart/">their site</a>.</p>
-
-<h3 id="installing-a-theme">Installing a theme</h3>
+<p>All of this should be available at a good computer hardware store. We ordered it from Amazon</p>
 
 <ol>
-<li>Go to <a href="https://themes.gohugo.io">https://themes.gohugo.io</a></li>
-<li>Select any theme. Let&rsquo;s assume you have selected the <strong>Hyde-Y</strong> theme</li>
-<li>Using <code>git</code>, clone the theme into the <code>theme</code> directory of your Hugo site directory</li>
-<li>Copy the file <code>new_site/themes/hyde-y/theme.toml</code> to <code>new_site/config.toml</code>. Simply speaking, overwrite the file</li>
-<li>Check using <code>hugo server</code> to see if the theme is working properly</li>
-<li>It should be served at <code>127.0.0.1:1313</code></li>
+<li>PC with GNU/Linux installed and with multiple USB 3.0 ports</li>
+<li>PCI Express USB 3.0 card with extra ports (See image)</li>
+<li>A PCI Express extender if (2) does not fit in the cabinet (optional)</li>
+<li>USB 3.0 to Gigabit Ethernet adapters</li>
 </ol>
 
-<p><em>Note : You might want to use <strong>Incognito mode</strong> to check your site</em></p>
+<figure>
+    <center>
+    <img src="../../../../images/pcie_usb_card.jpg" style="width:50%; height:50%" />
+    </center>
+    <center>
+    <figcaption>PCI USB Card</figcaption>
+    </center>
+</figure>
 
-<h3 id="creating-the-posts">Creating the posts</h3>
+<p><br></p>
 
-<p>I shall also not discuss this as this is written in multiple tutorials before me. You must be wondering &lsquo;Why the hell is this guy writing a tutorial then?&rsquo;</p>
-
-<p>That is because I can and I will!</p>
-
-<p><em>Note : Seriously, just visit the site the original site and take a look at their <a href="https://gohugo.io/overview/quickstart/">quickstart guide</a>; it will be enough</em></p>
-
-<h3 id="creating-an-about-page">Creating an &lsquo;About&rsquo; page</h3>
-
-<p>There is no magic regarding creating the About page. There is only hard work (I consider it to be hard work as I am not special)</p>
-
-<p>However, the process of attaching the About page is a sort of hit-and-trial method. You should look into the <code>toml</code> file to see how it should be attached. Read the theme documentation page for the best results.</p>
-
-<h3 id="setting-the-correct-baseurl">Setting the correct <code>baseurl</code></h3>
-
-<p>If you are not careful about this part, your deployed site will not have any styling. So be careful</p>
+<h4 id="note">Note</h4>
 
 <ol>
-<li>Let&rsquo;s assume your are hosting your site at Github Pages and the URL is foobar.github.io</li>
-<li>Then, the <code>baseurl</code> should be <code>http://foobar.github.io/</code>. Make sure to give the forward slash at the end, otherwise you will have a non CSS website</li>
+<li>You can use a multiport Gigabit ethernet card but we could not find one which fits our motherboard. Also, they were quite expensive.</li>
+<li>PCI Express extender is only required if your cabinet is small.</li>
 </ol>
 
-<h3 id="integration-of-disqus">Integration of Disqus</h3>
+<h3 id="software-needed">Software needed</h3>
 
-<p>If you want Disqus support in your website, you have to first create a short URL for your website.</p>
+<h4 id="open-vswitch">Open vSwitch</h4>
+
+<p>This allows us to create OpenFlow switches, both real and virtual. There is well supported and there exists enough documentation on it.</p>
+
+<h5 id="installation">Installation</h5>
+
+<pre><code>sudo apt-get install openvswitch-switch
+</code></pre>
+
+<h4 id="a-controller">A controller</h4>
+
+<p>A controller is needed to create any SDN switch, otherwise, you need to insert OpenFlow rules manually. There are plenty of controllers available like Floodlight, Opendaylight, Ryu, Pox. We used Ryu. You can clone it from Github.</p>
+
+<p>After installing it, run the Ryu controller in some machine. In our case, we ran the controller at a machine with IP address <code>10.10.5.20</code> at port <code>6633</code></p>
+
+<h3 id="integration-of-the-hardware-and-the-software">Integration of the hardware and the software</h3>
 
 <ol>
-<li>Go to <a href="https://disqus.com/admin/create/">https://disqus.com/admin/create/</a></li>
-<li>Give a website name, say <strong>foobar</strong></li>
-<li>Go to <code>https://foobar.disqus.com/admin/settings/general</code></li>
-<li>In website URL, put your website&rsquo;s URL, that is `<code>https://foobar.github.io</code></li>
+<li>Connect the PCI Express card to the motherboard</li>
+<li>Connect all the USB dongles to the newly installed card</li>
+<li>Note the interface names of the newly created interfaces. Say they are <code>eth1</code>, <code>eth2</code> and <code>eth3</code></li>
+
+<li><p>Create a bridge. Say it&rsquo;s <code>br0</code></p>
+
+<pre><code>ovs-vsctl add-br br0
+</code></pre></li>
+
+<li><p>Connect the interfaces to the brige <code>br0</code></p>
+
+<pre><code>ovs-vsctl add-port br0 eth1
+ovs-vsctl add-port br0 eth2
+ovs-vsctl add-port br0 eth3
+</code></pre></li>
+
+<li><p>Connect a controller to the bridge</p>
+
+<pre><code>ovs-vsctl set-controller br0 tcp:10.10.5.20:6633
+</code></pre></li>
 </ol>
 
-<p><em>Note : I spent 1 hour trying to connect Disqus to my website</em></p>
+<p>And that is all. You now have a Gigabit OpenFlow switch!</p>
 
 </div>
 
@@ -275,15 +307,11 @@
   
 
     
-    <a class="prev" href="https://thexavier666.github.io/2017/06/19/hugo-is-nice/" title="Hugo is nice!">
+    <a class="prev" href="https://thexavier666.github.io/2017/06/19/using-hugo-and-possible-errors/" title="Using Hugo and possible errors">
       Previous
     </a>
     
 
-    
-    <a class="next" href="https://thexavier666.github.io/2017/06/20/creating-an-actual-openflow-enabled-gigabit-switch/" title="Creating an actual OpenFlow-enabled Gigabit Switch">
-      Next
-    </a>
     
 
   
