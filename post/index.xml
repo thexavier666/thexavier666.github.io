@@ -9,10 +9,21 @@
     <managingEditor>sumitros@gmail.com (Sumitro Bhaumik)</managingEditor>
     <webMaster>sumitros@gmail.com (Sumitro Bhaumik)</webMaster>
     <copyright>(c) 2017 Sumitro Bhaumik</copyright>
-    <lastBuildDate>Tue, 20 Jun 2017 12:30:31 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 23 Jun 2017 14:59:50 +0530</lastBuildDate>
     
 	<atom:link href="https://thexavier666.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Post-installation GNU/Linux in IIT KGP</title>
+      <link>https://thexavier666.github.io/2017/06/23/post-installation-gnu/linux-in-iit-kgp/</link>
+      <pubDate>Fri, 23 Jun 2017 14:59:50 +0530</pubDate>
+      <author>sumitros@gmail.com (Sumitro Bhaumik)</author>
+      <guid>https://thexavier666.github.io/2017/06/23/post-installation-gnu/linux-in-iit-kgp/</guid>
+      <description>This is just a self-tutorial because I need to install and reinstall Linux quite a few times. Some of the tips are for laptops only. They will be tagged with [Laptop]
+Network connectivity Adding proxy Edit the file /etc/apt/apt.conf and add the following lines
+export http_proxy=&amp;quot;http://10.3.100.207:8080&amp;quot; export https_proxy=&amp;quot;http://10.3.100.207:8080&amp;quot; export ftp_proxy=&amp;quot;http://10.3.100.207:8080&amp;quot; export no_proxy=&amp;quot;localhost,127.0.0.1,10.0.0.0/8&amp;quot;  Enabling proxy for apt This is required for installing updates. Edit the file /etc/apt/apt.conf and add the following lines</description>
+    </item>
     
     <item>
       <title>Creating an actual OpenFlow-enabled Gigabit Switch</title>
