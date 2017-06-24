@@ -63,7 +63,7 @@
     },
     "datePublished": "2017-06-23",
     "description": "Linux installation tutorial. Cheap! Buy now! Fast!",
-    "wordCount": 422
+    "wordCount": 453
   }
 </script>
 
@@ -193,8 +193,8 @@
   
     &middot; by Sumitro
   
-  &middot; Read in about 2 min
-  &middot; (422 Words)
+  &middot; Read in about 3 min
+  &middot; (453 Words)
   <br>
   
 
@@ -206,13 +206,13 @@
   <div class="container content">
   
 
-<p>This is just a self-tutorial because I need to install and reinstall Linux quite a few times. Some of the tips are for laptops only. They will be tagged with [Laptop]</p>
+<p>This is just a tutorial/guide for myself because I need to install and reinstall Linux quite a few times. Some of the tips are for laptops only. They will be tagged with [Laptop]. I generally install Ubuntu Mate in all machines because it&rsquo;s light and stable.</p>
 
 <h2 id="network-connectivity">Network connectivity</h2>
 
 <h3 id="adding-proxy">Adding proxy</h3>
 
-<p>Edit the file <code>/etc/apt/apt.conf</code> and add the following lines</p>
+<p>Edit the file <code>/etc/profile</code> and add the following lines</p>
 
 <pre><code class="language-shell">export http_proxy=&quot;http://10.3.100.207:8080&quot;
 export https_proxy=&quot;http://10.3.100.207:8080&quot;
@@ -241,6 +241,10 @@ Acquire::ftp::proxy &quot;http://10.3.100.207:8080&quot;;
 <li><code>htop</code> - For system status</li>
 <li><code>vim</code> - For VIM&rsquo;ing</li>
 </ol>
+
+<p>A simple one-liner for installing all of the above</p>
+
+<p><code>sudo apt-get install openssh-server screen htop vim</code></p>
 
 <h2 id="customizing-the-looks">Customizing the looks</h2>
 
@@ -273,7 +277,7 @@ sudo apt-get install numix-icon-theme numix-icon-theme-circle
 
 <h2 id="miscellaneous-tasks">Miscellaneous Tasks</h2>
 
-<h4 id="disable-bluetooth">Disable bluetooth</h4>
+<h4 id="disabling-bluetooth">Disabling bluetooth</h4>
 
 <p>You may not want to do this if you use Bluetooth frequently. I have posted the one which worked for me here. Try out the other options mentioned <a href="(https://askubuntu.com/questions/67758/how-can-i-deactivate-bluetooth-on-system-startup)">here</a>.</p>
 
