@@ -3,7 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://thexavier666.github.io/2017/06/23/post-installation-gnu/linux-in-iit-kgp/</loc>
+    <loc>https://thexavier666.github.io/2017/06/26/while-installing-linux.../</loc>
+    <lastmod>2017-06-26T00:34:45+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thexavier666.github.io/2017/06/25/waiting-for-internet-in-iit-kgp/</loc>
+    <lastmod>2017-06-25T22:26:10+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thexavier666.github.io/2017/06/23/post-installation-of-gnu/linux-in-iit-kgp/</loc>
     <lastmod>2017-06-23T14:59:50+05:30</lastmod>
   </url>
   
@@ -34,14 +44,44 @@
   </url>
   
   <url>
+    <loc>https://thexavier666.github.io/tags/gist/</loc>
+    <lastmod>2017-06-25T22:26:10+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://thexavier666.github.io/tags/hugo/</loc>
     <lastmod>2017-06-19T23:23:31+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://thexavier666.github.io/tags/install/</loc>
+    <lastmod>2017-06-26T00:34:45+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://thexavier666.github.io/tags/internet/</loc>
+    <lastmod>2017-06-25T22:26:10+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://thexavier666.github.io/tags/kgp/</loc>
+    <lastmod>2017-06-25T22:26:10+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://thexavier666.github.io/</loc>
-    <lastmod>2017-06-23T14:59:50+05:30</lastmod>
+    <lastmod>2017-06-26T00:34:45+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://thexavier666.github.io/tags/linux/</loc>
+    <lastmod>2017-06-26T00:34:45+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -59,7 +99,7 @@
   
   <url>
     <loc>https://thexavier666.github.io/post/</loc>
-    <lastmod>2017-06-23T14:59:50+05:30</lastmod>
+    <lastmod>2017-06-26T00:34:45+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -83,19 +123,19 @@
   
   <url>
     <loc>https://thexavier666.github.io/topics/topic-1/</loc>
-    <lastmod>2017-06-23T14:59:50+05:30</lastmod>
+    <lastmod>2017-06-26T00:34:45+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://thexavier666.github.io/topics/</loc>
-    <lastmod>2017-06-23T14:59:50+05:30</lastmod>
+    <lastmod>2017-06-26T00:34:45+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://thexavier666.github.io/tags/tutorial/</loc>
-    <lastmod>2017-06-20T12:30:31+05:30</lastmod>
+    <lastmod>2017-06-26T00:34:45+05:30</lastmod>
     <priority>0</priority>
   </url>
   

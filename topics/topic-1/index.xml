@@ -9,17 +9,38 @@
     <managingEditor>sumitros@gmail.com (Sumitro Bhaumik)</managingEditor>
     <webMaster>sumitros@gmail.com (Sumitro Bhaumik)</webMaster>
     <copyright>(c) 2017 Sumitro Bhaumik</copyright>
-    <lastBuildDate>Fri, 23 Jun 2017 14:59:50 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 26 Jun 2017 00:34:45 +0530</lastBuildDate>
     
 	<atom:link href="https://thexavier666.github.io/topics/topic-1/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Post-installation GNU/Linux in IIT KGP</title>
-      <link>https://thexavier666.github.io/2017/06/23/post-installation-gnu/linux-in-iit-kgp/</link>
+      <title>While installing Linux...</title>
+      <link>https://thexavier666.github.io/2017/06/26/while-installing-linux.../</link>
+      <pubDate>Mon, 26 Jun 2017 00:34:45 +0530</pubDate>
+      <author>sumitros@gmail.com (Sumitro Bhaumik)</author>
+      <guid>https://thexavier666.github.io/2017/06/26/while-installing-linux.../</guid>
+      <description>Last night, I was installing Ubuntu Mate in a machine which already had Ubuntu installed in it. But this version was installed in LVM logical volumes. I still have to learn LVM but that is for another day. The issue that I was facing was that I could not delete those partition during installation. After some hopeless searching, I decided to use fdisk to delete them, and it worked!</description>
+    </item>
+    
+    <item>
+      <title>Waiting for Internet in IIT KGP</title>
+      <link>https://thexavier666.github.io/2017/06/25/waiting-for-internet-in-iit-kgp/</link>
+      <pubDate>Sun, 25 Jun 2017 22:26:10 +0530</pubDate>
+      <author>sumitros@gmail.com (Sumitro Bhaumik)</author>
+      <guid>https://thexavier666.github.io/2017/06/25/waiting-for-internet-in-iit-kgp/</guid>
+      <description>Since KGP uses an HTTP proxy for all it&amp;rsquo;s activities, it can be a giant PITA sometimes to make some applications work here.
+One of them is the simple ping tool. I cannot use it to check if a machine is online if it is outside KGP.
+However, I mostly use ping to check if the Internet is working, which sometimes goes down when there is heavy rain.
+Hence, I&amp;rsquo;m created my own script to detect Internet using curl.</description>
+    </item>
+    
+    <item>
+      <title>Post-installation of GNU/Linux in IIT KGP</title>
+      <link>https://thexavier666.github.io/2017/06/23/post-installation-of-gnu/linux-in-iit-kgp/</link>
       <pubDate>Fri, 23 Jun 2017 14:59:50 +0530</pubDate>
       <author>sumitros@gmail.com (Sumitro Bhaumik)</author>
-      <guid>https://thexavier666.github.io/2017/06/23/post-installation-gnu/linux-in-iit-kgp/</guid>
+      <guid>https://thexavier666.github.io/2017/06/23/post-installation-of-gnu/linux-in-iit-kgp/</guid>
       <description>This is just a tutorial/guide for myself because I need to install and reinstall Linux quite a few times. Some of the tips are for laptops only. They will be tagged with [Laptop]. I generally install Ubuntu Mate in all machines because it&amp;rsquo;s light and stable.
 Network connectivity Adding proxy Edit the file /etc/profile and add the following lines
 export http_proxy=&amp;quot;http://10.3.100.207:8080&amp;quot; export https_proxy=&amp;quot;http://10.3.100.207:8080&amp;quot; export ftp_proxy=&amp;quot;http://10.3.100.207:8080&amp;quot; export no_proxy=&amp;quot;localhost,127.0.0.1,10.0.0.0/8&amp;quot;  Enabling proxy for apt This is required for installing updates.</description>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Install on Laments of the Struggling Researcher</title>
+    <link>https://thexavier666.github.io/tags/install/</link>
+    <description>Recent content in Install on Laments of the Struggling Researcher</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-EN</language>
+    <managingEditor>sumitros@gmail.com (Sumitro Bhaumik)</managingEditor>
+    <webMaster>sumitros@gmail.com (Sumitro Bhaumik)</webMaster>
+    <copyright>(c) 2017 Sumitro Bhaumik</copyright>
+    <lastBuildDate>Mon, 26 Jun 2017 00:34:45 +0530</lastBuildDate>
+    
+	<atom:link href="https://thexavier666.github.io/tags/install/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>While installing Linux...</title>
+      <link>https://thexavier666.github.io/2017/06/26/while-installing-linux.../</link>
+      <pubDate>Mon, 26 Jun 2017 00:34:45 +0530</pubDate>
+      <author>sumitros@gmail.com (Sumitro Bhaumik)</author>
+      <guid>https://thexavier666.github.io/2017/06/26/while-installing-linux.../</guid>
+      <description>Last night, I was installing Ubuntu Mate in a machine which already had Ubuntu installed in it. But this version was installed in LVM logical volumes. I still have to learn LVM but that is for another day. The issue that I was facing was that I could not delete those partition during installation. After some hopeless searching, I decided to use fdisk to delete them, and it worked!</description>
+    </item>
+    
+  </channel>
+</rss>

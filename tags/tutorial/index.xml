@@ -9,10 +9,19 @@
     <managingEditor>sumitros@gmail.com (Sumitro Bhaumik)</managingEditor>
     <webMaster>sumitros@gmail.com (Sumitro Bhaumik)</webMaster>
     <copyright>(c) 2017 Sumitro Bhaumik</copyright>
-    <lastBuildDate>Tue, 20 Jun 2017 12:30:31 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 26 Jun 2017 00:34:45 +0530</lastBuildDate>
     
 	<atom:link href="https://thexavier666.github.io/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>While installing Linux...</title>
+      <link>https://thexavier666.github.io/2017/06/26/while-installing-linux.../</link>
+      <pubDate>Mon, 26 Jun 2017 00:34:45 +0530</pubDate>
+      <author>sumitros@gmail.com (Sumitro Bhaumik)</author>
+      <guid>https://thexavier666.github.io/2017/06/26/while-installing-linux.../</guid>
+      <description>Last night, I was installing Ubuntu Mate in a machine which already had Ubuntu installed in it. But this version was installed in LVM logical volumes. I still have to learn LVM but that is for another day. The issue that I was facing was that I could not delete those partition during installation. After some hopeless searching, I decided to use fdisk to delete them, and it worked!</description>
+    </item>
     
     <item>
       <title>Creating an actual OpenFlow-enabled Gigabit Switch</title>

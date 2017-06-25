@@ -9,7 +9,7 @@
     <managingEditor>sumitros@gmail.com (Sumitro Bhaumik)</managingEditor>
     <webMaster>sumitros@gmail.com (Sumitro Bhaumik)</webMaster>
     <copyright>(c) 2017 Sumitro Bhaumik</copyright>
-    <lastBuildDate>Fri, 23 Jun 2017 14:59:50 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 26 Jun 2017 00:34:45 +0530</lastBuildDate>
     
 	<atom:link href="https://thexavier666.github.io/topics/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,7 +17,7 @@
     <item>
       <title>Topic 1</title>
       <link>https://thexavier666.github.io/topics/topic-1/</link>
-      <pubDate>Fri, 23 Jun 2017 14:59:50 +0530</pubDate>
+      <pubDate>Mon, 26 Jun 2017 00:34:45 +0530</pubDate>
       <author>sumitros@gmail.com (Sumitro Bhaumik)</author>
       <guid>https://thexavier666.github.io/topics/topic-1/</guid>
       <description></description>
