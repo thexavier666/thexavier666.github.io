@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://thexavier666.github.io/2017/07/16/creating-a-samba-drive-in-linux/</loc>
+    <lastmod>2017-07-16T21:48:03+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://thexavier666.github.io/2017/06/26/while-installing-linux.../</loc>
     <lastmod>2017-06-26T00:34:45+05:30</lastmod>
   </url>
@@ -75,13 +80,13 @@
   
   <url>
     <loc>https://thexavier666.github.io/</loc>
-    <lastmod>2017-06-26T00:34:45+05:30</lastmod>
+    <lastmod>2017-07-16T21:48:03+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://thexavier666.github.io/tags/linux/</loc>
-    <lastmod>2017-06-26T00:34:45+05:30</lastmod>
+    <lastmod>2017-07-16T21:48:03+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -99,7 +104,13 @@
   
   <url>
     <loc>https://thexavier666.github.io/post/</loc>
-    <lastmod>2017-06-26T00:34:45+05:30</lastmod>
+    <lastmod>2017-07-16T21:48:03+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://thexavier666.github.io/tags/samba/</loc>
+    <lastmod>2017-07-16T21:48:03+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -123,13 +134,13 @@
   
   <url>
     <loc>https://thexavier666.github.io/topics/topic-1/</loc>
-    <lastmod>2017-06-26T00:34:45+05:30</lastmod>
+    <lastmod>2017-07-16T21:48:03+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://thexavier666.github.io/topics/</loc>
-    <lastmod>2017-06-26T00:34:45+05:30</lastmod>
+    <lastmod>2017-07-16T21:48:03+05:30</lastmod>
     <priority>0</priority>
   </url>
   

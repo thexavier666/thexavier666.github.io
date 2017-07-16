@@ -5,36 +5,36 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <title>While installing Linux...  &middot; Laments of the Struggling Researcher</title>
+  <title>Creating a Samba drive in Linux  &middot; Laments of the Struggling Researcher</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<meta name="description" content="Discussion about some issues which I faced while installing Ubuntu Mate (I think this is related to Linux as a whole)" />
+<meta name="description" content="Do you have what it takes to create a Samba drive?" />
 
-<meta name="keywords" content="key, words, ">
+<meta name="keywords" content="linux, samba, ">
 
 <link rel="author" href="http://plus.google.com/+SumitroBhaumik">
 
 
-<meta property="og:title" content="While installing Linux...  &middot; Laments of the Struggling Researcher ">
+<meta property="og:title" content="Creating a Samba drive in Linux  &middot; Laments of the Struggling Researcher ">
 <meta property="og:site_name" content="Laments of the Struggling Researcher"/>
-<meta property="og:url" content="https://thexavier666.github.io/2017/06/26/while-installing-linux.../" />
+<meta property="og:url" content="https://thexavier666.github.io/2017/07/16/creating-a-samba-drive-in-linux/" />
 <meta property="og:locale" content="en-EN">
 
 
 <meta property="og:type" content="article" />
-<meta property="og:description" content="Discussion about some issues which I faced while installing Ubuntu Mate (I think this is related to Linux as a whole)"/>
-<meta property="og:article:published_time" content="2017-06-26T00:34:45&#43;05:30" />
-<meta property="og:article:modified_time" content="2017-06-26T00:34:45&#43;05:30" />
+<meta property="og:description" content="Do you have what it takes to create a Samba drive?"/>
+<meta property="og:article:published_time" content="2017-07-16T21:48:03&#43;05:30" />
+<meta property="og:article:modified_time" content="2017-07-16T21:48:03&#43;05:30" />
 
   
     
-<meta property="og:article:tag" content="key">
+<meta property="og:article:tag" content="linux">
     
-<meta property="og:article:tag" content="words">
+<meta property="og:article:tag" content="samba">
     
   
 
@@ -42,9 +42,9 @@
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@xavier666" />
 <meta name="twitter:creator" content="@xavier666" />
-<meta name="twitter:title" content="While installing Linux..." />
-<meta name="twitter:description" content="Discussion about some issues which I faced while installing Ubuntu Mate (I think this is related to Linux as a whole)" />
-<meta name="twitter:url" content="https://thexavier666.github.io/2017/06/26/while-installing-linux.../" />
+<meta name="twitter:title" content="Creating a Samba drive in Linux" />
+<meta name="twitter:description" content="Do you have what it takes to create a Samba drive?" />
+<meta name="twitter:url" content="https://thexavier666.github.io/2017/07/16/creating-a-samba-drive-in-linux/" />
 <meta name="twitter:domain" content="https://thexavier666.github.io/">
   
 
@@ -52,20 +52,20 @@
   {
     "@context": "http://schema.org",
     "@type": "Article",
-    "headline": "While installing Linux...",
+    "headline": "Creating a Samba drive in Linux",
     "author": {
       "@type": "Person",
       "name": "http://profiles.google.com/+SumitroBhaumik?rel=author"
     },
-    "datePublished": "2017-06-26",
-    "description": "Discussion about some issues which I faced while installing Ubuntu Mate (I think this is related to Linux as a whole)",
-    "wordCount": 287
+    "datePublished": "2017-07-16",
+    "description": "Do you have what it takes to create a Samba drive?",
+    "wordCount": 238
   }
 </script>
 
 
 
-<link rel="canonical" href="https://thexavier666.github.io/2017/06/26/while-installing-linux.../" />
+<link rel="canonical" href="https://thexavier666.github.io/2017/07/16/creating-a-samba-drive-in-linux/" />
 
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://thexavier666.github.io/touch-icon-144-precomposed.png">
 <link href="https://thexavier666.github.io/favicon.png" rel="icon">
@@ -179,25 +179,23 @@
 
 <article id="main-content" class="container main_content single">
   <header class="container hat">
-  <h1>While installing Linux...
+  <h1>Creating a Samba drive in Linux
 </h1>
 
   <div class="metas">
-<time datetime="2017-06-26">26 Jun, 2017</time>
+<time datetime="2017-07-16">16 Jul, 2017</time>
 
 
   
     &middot; by Sumitro
   
   &middot; Read in about 2 min
-  &middot; (287 Words)
+  &middot; (238 Words)
   <br>
   
 <a class="label" href="https://thexavier666.github.io/tags/linux">linux</a>
 
-<a class="label" href="https://thexavier666.github.io/tags/install">install</a>
-
-<a class="label" href="https://thexavier666.github.io/tags/tutorial">tutorial</a>
+<a class="label" href="https://thexavier666.github.io/tags/samba">samba</a>
 
 
 
@@ -208,42 +206,81 @@
   <div class="container content">
   
 
-<p>Last night, I was installing Ubuntu Mate in a machine which already had Ubuntu installed in it. But this version was installed in LVM logical volumes. I still have to learn LVM but that is for another day. The issue that I was facing was that I could not delete those partition during installation. After some hopeless searching, I decided to use <code>fdisk</code> to delete them, and it worked!</p>
-
-<p>This is how I did it</p>
-
-<h3 id="deleting-a-partition-before-installing-linux">Deleting a partition before installing Linux</h3>
+<p>Creating a Samba drive on Linux has several advantages.</p>
 
 <ol>
-<li>Open the terminal</li>
-
-<li><p>To list out all the disks, enter</p>
-
-<p><code>sudo fdisk -l | grep '^Disk'</code></p></li>
-
-<li><p>Identify your hard disk from the list. Say it&rsquo;s <code>/dev/sda</code></p></li>
-
-<li><p>To format the disk, enter</p>
-
-<p><code>fdisk /dev/sda</code></p></li>
-
-<li><p>You will be asked for an option. Press <code>m</code> for help. Press <code>d</code> to delete a partition</p></li>
-
-<li><p>If your disk has multiple partitions, a partition number will be asked (There were multiple LVM logical volumes). Repeat the process multiple times till there are no more partitions. You can create partitions while installing Linux</p></li>
+<li>It is cross-platform</li>
 </ol>
 
-<h4 id="note">Note</h4>
+<p>Well, that&rsquo;s it.</p>
 
-<p>While deleting partitions, make sure not to delete any attached USB drives (which usually is the Linux installation media)</p>
+<p>It has its issues though, like the recent randomeware attack <strong>WannaCry</strong> was based on an exploit &laquo;EternalBlue&raquo; which was present in Samba.
+However, if we can overlook it, we can create an easy file sharing system.</p>
 
-<h3 id="deciding-partition-size">Deciding partition size</h3>
+<p>Now let us see how to create a Samba drive</p>
+
+<h2 id="steps-to-take">Steps to take</h2>
 
 <ul>
-<li><code>boot</code> - 1 GB is more than enough. 512 MB is best</li>
-<li><code>swap</code> - There is a lot of discussion regarding <code>swap</code> size. It would be good if you <a href="(https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Installation_Guide/s2-diskpartrecommend-ppc.html)">read about what it is</a>. Refer the table for the correct size. I have 8 GB RAM, so I use 8 GB <code>swap</code></li>
-<li><code>root</code> - A standard commercial installation takes 7-8 GB. So I give it an extra 20 GB space for all tools (total of 30 GB), which should last me 5 years. Linux tools anyway take very space.</li>
-<li><code>home</code> - Rest of the hard disk :)</li>
+<li><p>Install Samba</p>
+
+<pre><code>sudo apt-get install samba
+</code></pre></li>
+
+<li><p>Create user for Samba</p>
+
+<p>I&rsquo;ve decided to name the user <code>achilles</code></p>
+
+<pre><code>useradd achilles
+passwd achilles
+</code></pre>
+
+<p><strong>Note</strong> : It is advisable to not add a <code>sudo</code> user as a samba user. Otherwise, you will lose sudo permission.</p></li>
+
+<li><p>Create a directory to be shared</p>
+
+<pre><code>mkdir /smb_user
+chmod 770 /smb_user
+</code></pre></li>
+
+<li><p>Create group for Samba</p>
+
+<p>The name of the group is WORKGROUP simply because of Windows traditions :smile:</p>
+
+<pre><code>groupadd WORKGROUP
+chown :WORKGROUP /smb_user
+</code></pre></li>
+
+<li><p>Add user to Samba group</p>
+
+<pre><code>smbpasswd -a achilles
+usermod -G WORKGROUP achilles
+</code></pre></li>
+
+<li><p>Edit the file <code>/etc/samba/smb.conf</code>. Add the following at the end of the file. Try to understand the following on your own.</p>
+
+<pre><code>[achilles]
+    comment = Linux Samba Share
+    path = /smb_user
+    browsable = yes
+    guest ok = yes
+    read only = yes
+    create mask = 0755
+</code></pre></li>
+
+<li><p>Restart Samba service</p>
+
+<pre><code>sudo systemctl restart smbd.service nmbd.service
+</code></pre></li>
 </ul>
+
+<p>That&rsquo;s it, you&rsquo;re done!</p>
+
+<p>If you want to access the server from a Linux machine, go to your file browser and enter the URL <code>smb://&lt;ip address&gt;</code></p>
+
+<p>On Windows machine, it should be <code>\\&lt;ip address&gt;</code></p>
+
+<hr />
 
 </div>
 
@@ -255,15 +292,11 @@
   
 
     
-    <a class="prev" href="https://thexavier666.github.io/2017/06/25/waiting-for-internet-in-iit-kgp/" title="Waiting for Internet in IIT KGP">
+    <a class="prev" href="https://thexavier666.github.io/2017/06/26/while-installing-linux.../" title="While installing Linux...">
       Previous
     </a>
     
 
-    
-    <a class="next" href="https://thexavier666.github.io/2017/07/16/creating-a-samba-drive-in-linux/" title="Creating a Samba drive in Linux">
-      Next
-    </a>
     
 
   
