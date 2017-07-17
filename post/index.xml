@@ -54,7 +54,8 @@ Hence, I&amp;rsquo;m created my own script to detect Internet using curl.</descr
       <pubDate>Fri, 23 Jun 2017 14:59:50 +0530</pubDate>
       <author>sumitros@gmail.com (Sumitro Bhaumik)</author>
       <guid>https://thexavier666.github.io/2017/06/23/post-installation-of-gnu/linux-in-iit-kgp/</guid>
-      <description>This is just a tutorial/guide for myself because I need to install and reinstall Linux quite a few times. Some of the tips are for laptops only. They will be tagged with [Laptop]. I generally install Ubuntu Mate in all machines because it&amp;rsquo;s light and stable.
+      <description>This is just a tutorial/guide for myself because I need to install and reinstall Linux quite a few times. Some of the tips are for laptops only. They will be tagged with [Laptop].
+I generally install Ubuntu Mate in all machines because it&amp;rsquo;s light and stable.
 Network connectivity Adding proxy Edit the file /etc/profile and add the following lines
 export http_proxy=&amp;quot;http://10.3.100.207:8080&amp;quot; export https_proxy=&amp;quot;http://10.3.100.207:8080&amp;quot; export ftp_proxy=&amp;quot;http://10.3.100.207:8080&amp;quot; export no_proxy=&amp;quot;localhost,127.0.0.1,10.0.0.0/8&amp;quot;  Enabling proxy for apt This is required for installing updates.</description>
     </item>
