@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Starting a VLC Video-on-Demand Server in Linux  &middot; Laments of the Struggling Researcher</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="description" content="description" />
+
+<meta name="keywords" content="vlc, streaming, vod, ">
+
+<link rel="author" href="http://plus.google.com/+SumitroBhaumik">
+
+
+<meta property="og:title" content="Starting a VLC Video-on-Demand Server in Linux  &middot; Laments of the Struggling Researcher ">
+<meta property="og:site_name" content="Laments of the Struggling Researcher"/>
+<meta property="og:url" content="https://thexavier666.github.io/2017/07/17/starting-a-vlc-video-on-demand-server-in-linux/" />
+<meta property="og:locale" content="en-EN">
+
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content="description"/>
+<meta property="og:article:published_time" content="2017-07-17T19:28:23&#43;05:30" />
+<meta property="og:article:modified_time" content="2017-07-17T19:28:23&#43;05:30" />
+
+  
+    
+<meta property="og:article:tag" content="vlc">
+    
+<meta property="og:article:tag" content="streaming">
+    
+<meta property="og:article:tag" content="vod">
+    
+  
+
+  
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@xavier666" />
+<meta name="twitter:creator" content="@xavier666" />
+<meta name="twitter:title" content="Starting a VLC Video-on-Demand Server in Linux" />
+<meta name="twitter:description" content="description" />
+<meta name="twitter:url" content="https://thexavier666.github.io/2017/07/17/starting-a-vlc-video-on-demand-server-in-linux/" />
+<meta name="twitter:domain" content="https://thexavier666.github.io/">
+  
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "headline": "Starting a VLC Video-on-Demand Server in Linux",
+    "author": {
+      "@type": "Person",
+      "name": "http://profiles.google.com/+SumitroBhaumik?rel=author"
+    },
+    "datePublished": "2017-07-17",
+    "description": "description",
+    "wordCount": 286
+  }
+</script>
+
+
+
+<link rel="canonical" href="https://thexavier666.github.io/2017/07/17/starting-a-vlc-video-on-demand-server-in-linux/" />
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://thexavier666.github.io/touch-icon-144-precomposed.png">
+<link href="https://thexavier666.github.io/favicon.png" rel="icon">
+
+<meta name="generator" content="Hugo 0.23" />
+
+  
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link href='https://fonts.googleapis.com/css?family=Merriweather:300%7CRaleway%7COpen+Sans' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://thexavier666.github.io/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://thexavier666.github.io/css/style.css">
+<link rel="stylesheet" href="https://thexavier666.github.io/css/highlight/default.css">
+
+  
+  
+</head>
+<body>
+  <main id="main-wrapper" class="container main_wrapper has-sidebar">
+    <header id="main-header" class="container main_header">
+  <div class="container brand">
+  <div class="container title h1-like">
+  <a class="baselink" href="https://thexavier666.github.io/">
+  The Struggling Researcher
+
+</a>
+
+</div>
+
+  
+<div class="container topline">
+  
+  1 bug squashed, 99 to go
+
+
+</div>
+
+
+</div>
+
+  <nav class="container nav primary no-print">
+  
+
+<a class="homelink" href="https://thexavier666.github.io/">Home</a>
+
+
+  
+<a href="https://thexavier666.github.io/aboutme">About</a>
+
+<a href="https://thexavier666.github.io/post" title="Show list of posts">Posts</a>
+
+<a href="https://thexavier666.github.io/tags" title="Show list of tags">Tags</a>
+
+
+</nav>
+
+<div class="container nav secondary no-print">
+  
+<a id="contact-link-email" class="contact_link" href="mailto:sumitros@gmail.com">
+  <span class="fa fa-envelope-square"></span><span>email</span></a>
+
+
+
+<a id="contact-link-github" class="contact_link" href="https://github.com/thexavier666">
+  <span class="fa fa-github-square"></span><span>github</span></a>
+
+
+
+<a id="contact-link-bitbucket" class="contact_link" href="https://bitbucket.org/xavier666">
+  <span class="fa fa-bitbucket-square"></span><span>bitbucket</span></a>
+
+
+
+
+
+<a id="contact-link-googleplus" class="contact_link" href="https://plus.google.com/u/0/+SumitroBhaumik">
+  <span class="fa fa-google-plus-square"></span><span>google+</span></a>
+
+
+
+<a id="contact-link-facebook" class="contact_link" href="https://www.facebook.com/thexavier666">
+  <span class="fa fa-facebook-square"></span><span>facebook</span></a>
+
+
+
+<a id="contact-link-twitter" class="contact_link" href="https://twitter.com/xavier666">
+  <span class="fa fa-twitter-square"></span><span>twitter</span></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+  
+
+</header>
+
+
+<article id="main-content" class="container main_content single">
+  <header class="container hat">
+  <h1>Starting a VLC Video-on-Demand Server in Linux
+</h1>
+
+  <div class="metas">
+<time datetime="2017-07-17">17 Jul, 2017</time>
+
+
+  
+    &middot; by Sumitro
+  
+  &middot; Read in about 2 min
+  &middot; (286 Words)
+  <br>
+  
+<a class="label" href="https://thexavier666.github.io/tags/vlc">vlc</a>
+
+<a class="label" href="https://thexavier666.github.io/tags/streaming">streaming</a>
+
+<a class="label" href="https://thexavier666.github.io/tags/vod">vod</a>
+
+
+
+</div>
+
+</header>
+
+  <div class="container content">
+  
+
+<p>Using Video-on-Demand (VOD) has several advantages</p>
+
+<ul>
+<li>It&rsquo;s faster since it uses UDP instead of TCP</li>
+<li>You can pause/play/rewind/fast-forward compared to traditional RTP</li>
+<li>Lesser overhead compared to RTP as RTP needs to transcode on-the-fly</li>
+</ul>
+
+<h2 id="starting-the-vod-server">Starting the VOD Server</h2>
+
+<ol>
+<li><p>Start the VLC Video-on-demand server. The server is running at <code>10.5.20.114</code> at port <code>554</code>.</p>
+
+<pre><code>sudo vlc-wrapper --ttl 12 -vvv --color -I telnet --telnet-password videolan --rtsp-host 10.5.20.114 --rtsp-port 554
+</code></pre></li>
+
+<li><p>Login to the VOD server via telnet which is running at port <code>4212</code> at the same IP. The password is <code>videolan</code> as mentioned above</p>
+
+<pre><code>telnet 0.0.0.0 4212
+</code></pre></li>
+
+<li><p>Now you have to create a media object and link a media content to this object. This can be also be done by loading a script inside the telnet session. The name of the object I&rsquo;ve created is <code>myvideo</code></p>
+
+<pre><code>new myvideo vod enabled
+setup myvideo input path/to/video.mp4
+</code></pre></li>
+</ol>
+
+<p>That&rsquo;s it, the video is now being hosted in your server.</p>
+
+<h2 id="accessing-the-video">Accessing the video</h2>
+
+<p>You can view the video by using the URL <code>rtsp://10.5.20.114:554/myvideo</code>. You can also access it by command line by <code>vlc-wrapper rtsp://10.5.20.114:554/myvideo</code></p>
+
+<h2 id="automatic-loading-of-video-into-the-vod-server">Automatic loading of video into the VOD server</h2>
+
+<p>Say you want to automatically login to the telnet server, create the object and add the media files. Then it is possible to write a script for it</p>
+
+<ol>
+<li><p>Write a shell script as follows. Compare it with the above section to understand what is going on</p>
+
+<pre><code># The telnet password
+echo &quot;videolan&quot;
+sleep 2
+# Creating the video object
+echo &quot;new myvideo vod enabled&quot;
+sleep 2
+# Adding the media file to the object
+echo &quot;setup myvideo input path/to/video.mp4&quot;
+sleep 2
+# Exiting telnet
+echo &quot;quit&quot;
+</code></pre></li>
+
+<li><p>Run the script as follows</p>
+
+<pre><code>sh script_name.sh | telnet 0.0.0.0 4212
+</code></pre></li>
+</ol>
+
+<p>This should be really handy during automation</p>
+
+</div>
+
+
+  <footer class="container">
+  <div class="container navigation no-print">
+  <h2>Navigation</h2>
+  
+  
+
+    
+    <a class="prev" href="https://thexavier666.github.io/2017/07/16/creating-a-samba-drive-in-linux/" title="Creating a Samba drive in Linux">
+      Previous
+    </a>
+    
+
+    
+
+  
+
+
+</div>
+
+  <div class="container comments">
+  <h2>Comments</h2>
+  
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  (function() {
+    
+    
+    if (window.location.hostname == "localhost")
+      return;
+
+    var dsq = document.createElement('script'); dsq.async = true; dsq.type = 'text/javascript';
+    dsq.src = '//strugglingresearcher.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+</div>
+
+</footer>
+
+</article>
+      <footer id="main-footer" class="container main_footer">
+  
+
+  <div class="container nav foot no-print">
+  
+
+  <a class="toplink" href="#">back to top</a>
+
+</div>
+
+  <div class="container credits">
+  
+<div class="container footline">
+  
+  code with <i class='fa fa-heart'></i>
+
+
+</div>
+
+
+  
+<div class="container copyright">
+  
+  &copy; 2017 Sumitro Bhaumik
+
+
+</div>
+
+
+</div>
+
+</footer>
+
+    </main>
+    
+<script type="text/javascript">
+  (function() {
+    
+    
+    if (window.location.hostname == "localhost")
+      return;
+
+    var dsq = document.createElement('script'); dsq.async = true; dsq.type = 'text/javascript';
+    dsq.src = '//strugglingresearcher.disqus.com/count.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+
+<script src="https://thexavier666.github.io/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+    
+  </body>
+</html>
+

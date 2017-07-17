@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Streaming on Laments of the Struggling Researcher</title>
+    <link>https://thexavier666.github.io/tags/streaming/</link>
+    <description>Recent content in Streaming on Laments of the Struggling Researcher</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-EN</language>
+    <managingEditor>sumitros@gmail.com (Sumitro Bhaumik)</managingEditor>
+    <webMaster>sumitros@gmail.com (Sumitro Bhaumik)</webMaster>
+    <copyright>(c) 2017 Sumitro Bhaumik</copyright>
+    <lastBuildDate>Mon, 17 Jul 2017 19:28:23 +0530</lastBuildDate>
+    
+	<atom:link href="https://thexavier666.github.io/tags/streaming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Starting a VLC Video-on-Demand Server in Linux</title>
+      <link>https://thexavier666.github.io/2017/07/17/starting-a-vlc-video-on-demand-server-in-linux/</link>
+      <pubDate>Mon, 17 Jul 2017 19:28:23 +0530</pubDate>
+      <author>sumitros@gmail.com (Sumitro Bhaumik)</author>
+      <guid>https://thexavier666.github.io/2017/07/17/starting-a-vlc-video-on-demand-server-in-linux/</guid>
+      <description>Using Video-on-Demand (VOD) has several advantages
+ It&amp;rsquo;s faster since it uses UDP instead of TCP You can pause/play/rewind/fast-forward compared to traditional RTP Lesser overhead compared to RTP as RTP needs to transcode on-the-fly  Starting the VOD Server  Start the VLC Video-on-demand server. The server is running at 10.5.20.114 at port 554.
+sudo vlc-wrapper --ttl 12 -vvv --color -I telnet --telnet-password videolan --rtsp-host 10.5.20.114 --rtsp-port 554  Login to the VOD server via telnet which is running at port 4212 at the same IP.</description>
+    </item>
+    
+  </channel>
+</rss>
