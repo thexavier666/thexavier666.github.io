@@ -59,7 +59,7 @@
     },
     "datePublished": "2017-07-16",
     "description": "Do you have what it takes to create a Samba drive?",
-    "wordCount": 238
+    "wordCount": 237
   }
 </script>
 
@@ -190,7 +190,7 @@
     &middot; by Sumitro
   
   &middot; Read in about 2 min
-  &middot; (238 Words)
+  &middot; (237 Words)
   <br>
   
 <a class="label" href="https://thexavier666.github.io/tags/linux">linux</a>
@@ -229,39 +229,38 @@ However, if we can overlook it, we can create an easy file sharing system.</p>
 
 <li><p>Create user for Samba</p>
 
-<p>I&rsquo;ve decided to name the user <code>achilles</code></p>
+<p>I&rsquo;ve decided to name the Samba user <code>smb_user</code></p>
 
-<pre><code>useradd achilles
-passwd achilles
+<pre><code>useradd smb_user
 </code></pre>
 
 <p><strong>Note</strong> : It is advisable to not add a <code>sudo</code> user as a samba user. Otherwise, you will lose sudo permission.</p></li>
 
 <li><p>Create a directory to be shared</p>
 
-<pre><code>mkdir /smb_user
-chmod 770 /smb_user
+<pre><code>mkdir /smb_drive
+chmod 770 /smb_drive
 </code></pre></li>
 
 <li><p>Create group for Samba</p>
 
-<p>The name of the group is WORKGROUP simply because of Windows traditions :smile:</p>
+<p>The name of the group is WORKGROUP simply because of Windows traditions :)</p>
 
 <pre><code>groupadd WORKGROUP
-chown :WORKGROUP /smb_user
+chown :WORKGROUP /smb_drive
 </code></pre></li>
 
 <li><p>Add user to Samba group</p>
 
-<pre><code>smbpasswd -a achilles
-usermod -G WORKGROUP achilles
+<pre><code>smbpasswd -a smb_user
+usermod -G WORKGROUP smb_user
 </code></pre></li>
 
 <li><p>Edit the file <code>/etc/samba/smb.conf</code>. Add the following at the end of the file. Try to understand the following on your own.</p>
 
 <pre><code>[achilles]
     comment = Linux Samba Share
-    path = /smb_user
+    path = /smb_drive
     browsable = yes
     guest ok = yes
     read only = yes
