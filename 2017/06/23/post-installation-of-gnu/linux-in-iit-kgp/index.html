@@ -63,7 +63,7 @@
     },
     "datePublished": "2017-06-23",
     "description": "Linux installation tutorial. Cheap! Buy now! Fast!",
-    "wordCount": 452
+    "wordCount": 494
   }
 </script>
 
@@ -194,7 +194,7 @@
     &middot; by Sumitro
   
   &middot; Read in about 3 min
-  &middot; (452 Words)
+  &middot; (494 Words)
   <br>
   
 
@@ -216,10 +216,10 @@
 
 <p>Edit the file <code>/etc/profile</code> and add the following lines</p>
 
-<pre><code class="language-shell">export http_proxy=&quot;http://10.3.100.207:8080&quot;
-export https_proxy=&quot;http://10.3.100.207:8080&quot;
-export ftp_proxy=&quot;http://10.3.100.207:8080&quot;
-export no_proxy=&quot;localhost,127.0.0.1,10.0.0.0/8&quot;
+<pre><code class="language-shell">export http_proxy=&quot;http://172.16.2.30:8080&quot;
+export https_proxy=&quot;http://172.16.2.30:8080&quot;
+export ftp_proxy=&quot;http://172.16.2.30:8080&quot;
+export no_proxy=&quot;localhost,127.0.0.1,10.0.0.0/8,192.168.0.0/16&quot;
 </code></pre>
 
 <h3 id="enabling-proxy-for-apt">Enabling proxy for <code>apt</code></h3>
@@ -227,10 +227,12 @@ export no_proxy=&quot;localhost,127.0.0.1,10.0.0.0/8&quot;
 <p>This is required for installing updates.
 Edit the file <code>/etc/apt/apt.conf</code> and add the following lines</p>
 
-<pre><code class="language-shell">Acquire::http::proxy &quot;http://10.3.100.207:8080&quot;;
-Acquire::https::proxy &quot;http://10.3.100.207:8080&quot;;
-Acquire::ftp::proxy &quot;http://10.3.100.207:8080&quot;;
+<pre><code class="language-shell">Acquire::http::proxy &quot;http://172.16.2.30:8080&quot;;
+Acquire::https::proxy &quot;http://172.16.2.30:8080&quot;;
+Acquire::ftp::proxy &quot;http://172.16.2.30:8080&quot;;
 </code></pre>
+
+<p>Note : The proxy of IIT-KGP has changed to <code>http://172.16.2.30:8080</code>. Earlier it was <code>http://10.3.100.207:8080</code></p>
 
 <h2 id="installing-important-tools">Installing important tools</h2>
 
@@ -334,6 +336,14 @@ iface eth0 inet static
 <li>Find the line <code>#HandleLidSwitch=suspend</code></li>
 <li>Set it to <code>HandleLidSwitch=ignore</code> if you don&rsquo;t want anything to happen with a lid close</li>
 <li>Set it to <code>HandleLidSwitch=lock</code> if you want the screen get locked with a lid close</li>
+</ul>
+
+<h4 id="enable-wifi-on-startup-before-login-laptop">Enable wifi on startup before login [Laptop]</h4>
+
+<ul>
+<li>Edit the file <code>/etc/NetworkManager/system-connections/&lt;your AP name&gt;</code></li>
+<li>Find the line starting with <code>permission=</code></li>
+<li>Delete everthing in that line after the <code>=</code> sign</li>
 </ul>
 
 </div>
