@@ -9,10 +9,31 @@
     <managingEditor>sumitros@gmail.com (Sumitro Bhaumik)</managingEditor>
     <webMaster>sumitros@gmail.com (Sumitro Bhaumik)</webMaster>
     <copyright>(c) 2017 Sumitro Bhaumik</copyright>
-    <lastBuildDate>Mon, 17 Jul 2017 19:28:23 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 22 Feb 2018 21:51:02 +0530</lastBuildDate>
     
 	<atom:link href="https://thexavier666.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Using the Asus AC56 in Linux</title>
+      <link>https://thexavier666.github.io/2018/02/22/using-the-asus-ac56-in-linux/</link>
+      <pubDate>Thu, 22 Feb 2018 21:51:02 +0530</pubDate>
+      <author>sumitros@gmail.com (Sumitro Bhaumik)</author>
+      <guid>https://thexavier666.github.io/2018/02/22/using-the-asus-ac56-in-linux/</guid>
+      <description>This USB Wifi dongle was bought by our lab. But when I finally got it in my hands, I saw that the driver CD was missing. So I decided to hunt for the driver from the interwebz. This is my journey.
+ Download the driver from this link. Download it as a ZIP Unzip the contents and go inside the directory Get all essentials for make
+sudo apt install linux-headers-generic build-essential  Make and install</description>
+    </item>
+    
+    <item>
+      <title>Connecting to WIFI via the terminal in Linux</title>
+      <link>https://thexavier666.github.io/2018/02/22/connecting-to-wifi-via-the-terminal-in-linux/</link>
+      <pubDate>Thu, 22 Feb 2018 20:47:44 +0530</pubDate>
+      <author>sumitros@gmail.com (Sumitro Bhaumik)</author>
+      <guid>https://thexavier666.github.io/2018/02/22/connecting-to-wifi-via-the-terminal-in-linux/</guid>
+      <description>I have been searching for a solution to this issue for quite some time. Even though it&amp;rsquo;s a simple task, linux can sometimes make it a hassle. In Stackoverflow, I found the following solution for WPA-protected wifi access points. I&amp;rsquo;m assuming the name of the AP to be foo and the password to be bar, and the wifi interface to be wlan0
+ Create a WPA config file for your access point.</description>
+    </item>
     
     <item>
       <title>Starting a VLC Video-on-Demand Server in Linux</title>

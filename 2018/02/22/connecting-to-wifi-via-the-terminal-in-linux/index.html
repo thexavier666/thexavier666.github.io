@@ -5,38 +5,36 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <title>Starting a VLC Video-on-Demand Server in Linux  &middot; Laments of the Struggling Researcher</title>
+  <title>Connecting to WIFI via the terminal in Linux  &middot; Laments of the Struggling Researcher</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<meta name="description" content="See the title" />
+<meta name="description" content="Showing an easy way to connect to wifi APs when GUI is missing" />
 
-<meta name="keywords" content="vlc, streaming, vod, ">
+<meta name="keywords" content="key, words, ">
 
 <link rel="author" href="http://plus.google.com/+SumitroBhaumik">
 
 
-<meta property="og:title" content="Starting a VLC Video-on-Demand Server in Linux  &middot; Laments of the Struggling Researcher ">
+<meta property="og:title" content="Connecting to WIFI via the terminal in Linux  &middot; Laments of the Struggling Researcher ">
 <meta property="og:site_name" content="Laments of the Struggling Researcher"/>
-<meta property="og:url" content="https://thexavier666.github.io/2017/07/17/starting-a-vlc-video-on-demand-server-in-linux/" />
+<meta property="og:url" content="https://thexavier666.github.io/2018/02/22/connecting-to-wifi-via-the-terminal-in-linux/" />
 <meta property="og:locale" content="en-EN">
 
 
 <meta property="og:type" content="article" />
-<meta property="og:description" content="See the title"/>
-<meta property="og:article:published_time" content="2017-07-17T19:28:23&#43;05:30" />
-<meta property="og:article:modified_time" content="2017-07-17T19:28:23&#43;05:30" />
+<meta property="og:description" content="Showing an easy way to connect to wifi APs when GUI is missing"/>
+<meta property="og:article:published_time" content="2018-02-22T20:47:44&#43;05:30" />
+<meta property="og:article:modified_time" content="2018-02-22T20:47:44&#43;05:30" />
 
   
     
-<meta property="og:article:tag" content="vlc">
+<meta property="og:article:tag" content="key">
     
-<meta property="og:article:tag" content="streaming">
-    
-<meta property="og:article:tag" content="vod">
+<meta property="og:article:tag" content="words">
     
   
 
@@ -44,9 +42,9 @@
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@xavier666" />
 <meta name="twitter:creator" content="@xavier666" />
-<meta name="twitter:title" content="Starting a VLC Video-on-Demand Server in Linux" />
-<meta name="twitter:description" content="See the title" />
-<meta name="twitter:url" content="https://thexavier666.github.io/2017/07/17/starting-a-vlc-video-on-demand-server-in-linux/" />
+<meta name="twitter:title" content="Connecting to WIFI via the terminal in Linux" />
+<meta name="twitter:description" content="Showing an easy way to connect to wifi APs when GUI is missing" />
+<meta name="twitter:url" content="https://thexavier666.github.io/2018/02/22/connecting-to-wifi-via-the-terminal-in-linux/" />
 <meta name="twitter:domain" content="https://thexavier666.github.io/">
   
 
@@ -54,20 +52,20 @@
   {
     "@context": "http://schema.org",
     "@type": "Article",
-    "headline": "Starting a VLC Video-on-Demand Server in Linux",
+    "headline": "Connecting to WIFI via the terminal in Linux",
     "author": {
       "@type": "Person",
       "name": "http://profiles.google.com/+SumitroBhaumik?rel=author"
     },
-    "datePublished": "2017-07-17",
-    "description": "See the title",
-    "wordCount": 286
+    "datePublished": "2018-02-22",
+    "description": "Showing an easy way to connect to wifi APs when GUI is missing",
+    "wordCount": 236
   }
 </script>
 
 
 
-<link rel="canonical" href="https://thexavier666.github.io/2017/07/17/starting-a-vlc-video-on-demand-server-in-linux/" />
+<link rel="canonical" href="https://thexavier666.github.io/2018/02/22/connecting-to-wifi-via-the-terminal-in-linux/" />
 
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://thexavier666.github.io/touch-icon-144-precomposed.png">
 <link href="https://thexavier666.github.io/favicon.png" rel="icon">
@@ -181,25 +179,25 @@
 
 <article id="main-content" class="container main_content single">
   <header class="container hat">
-  <h1>Starting a VLC Video-on-Demand Server in Linux
+  <h1>Connecting to WIFI via the terminal in Linux
 </h1>
 
   <div class="metas">
-<time datetime="2017-07-17">17 Jul, 2017</time>
+<time datetime="2018-02-22">22 Feb, 2018</time>
 
 
   
-    &middot; by Sumitro
+    &middot; by author
   
   &middot; Read in about 2 min
-  &middot; (286 Words)
+  &middot; (236 Words)
   <br>
   
-<a class="label" href="https://thexavier666.github.io/tags/vlc">vlc</a>
+<a class="label" href="https://thexavier666.github.io/tags/wifi">wifi</a>
 
-<a class="label" href="https://thexavier666.github.io/tags/streaming">streaming</a>
+<a class="label" href="https://thexavier666.github.io/tags/ap">ap</a>
 
-<a class="label" href="https://thexavier666.github.io/tags/vod">vod</a>
+<a class="label" href="https://thexavier666.github.io/tags/networking">networking</a>
 
 
 
@@ -208,69 +206,49 @@
 </header>
 
   <div class="container content">
-  
-
-<p>Using Video-on-Demand (VOD) has several advantages</p>
-
-<ul>
-<li>It&rsquo;s faster since it uses UDP instead of TCP</li>
-<li>You can pause/play/rewind/fast-forward compared to traditional RTP</li>
-<li>Lesser overhead compared to RTP as RTP needs to transcode on-the-fly</li>
-</ul>
-
-<h2 id="starting-the-vod-server">Starting the VOD Server</h2>
+  <p>I have been searching for a solution to this issue for quite some time. Even though it&rsquo;s a simple task, linux can sometimes make it a hassle. In Stackoverflow, I found the following solution for WPA-protected wifi access points.
+I&rsquo;m assuming the name of the AP to be <code>foo</code> and the password to be <code>bar</code>, and the wifi interface to be <code>wlan0</code></p>
 
 <ol>
-<li><p>Start the VLC Video-on-demand server. The server is running at <code>10.5.20.114</code> at port <code>554</code>.</p>
+<li><p>Create a WPA config file for your access point. This stores all details of the connection.</p>
 
-<pre><code>sudo vlc-wrapper --ttl 12 -vvv --color -I telnet --telnet-password videolan --rtsp-host 10.5.20.114 --rtsp-port 554
+<pre><code>wpa_passphrase foo &gt; wpa_foo.conf
 </code></pre></li>
 
-<li><p>Login to the VOD server via telnet which is running at port <code>4212</code> at the same IP. The password is <code>videolan</code> as mentioned above</p>
+<li><p>You will be prompted for a password. Type <code>bar</code></p></li>
 
-<pre><code>telnet 0.0.0.0 4212
+<li><p>A file named <code>wpa_foo.conf</code> will be created. Move to <code>/etc/</code> for security reasons</p></li>
+
+<li><p>The 4th line of the file will contain the password in plain text (but it&rsquo;s commented). You can remove it for security.</p></li>
+
+<li><p>Now, connect to the wifi using the following command</p>
+
+<pre><code>wpa_supplicant -Dwext -B -iwlan0 -c/etc/wpa_foo.conf
 </code></pre></li>
 
-<li><p>Now you have to create a media object and link a media content to this object. This can be also be done by loading a script inside the telnet session. The name of the object I&rsquo;ve created is <code>myvideo</code></p>
+<li><p>Refresh <code>dhclient</code></p>
 
-<pre><code>new myvideo vod enabled
-setup myvideo input path/to/video.mp4
+<pre><code>dhclient -r
+</code></pre></li>
+
+<li><p>Ask for a new IP address</p>
+
+<pre><code>dhclient wlan0
 </code></pre></li>
 </ol>
 
-<p>That&rsquo;s it, the video is now being hosted in your server.</p>
+<p><a href="https://askubuntu.com/questions/138472/how-do-i-connect-to-a-wpa-wifi-network-using-the-command-line">Source : Stackoverflow</a></p>
 
-<h2 id="accessing-the-video">Accessing the video</h2>
+<p>Using this method, you should be able to connect, but I&rsquo;ve found this to be unreliable. I&rsquo;ve found another solution which uses the CLI of <code>Network Manager</code>. Keep it in mind that this might not be available in all versions of Linux. But this quite stable and simple and a one-liner.</p>
 
-<p>You can view the video by using the URL <code>rtsp://10.5.20.114:554/myvideo</code>. You can also access it by command line by <code>vlc-wrapper rtsp://10.5.20.114:554/myvideo</code></p>
+<pre><code>nmcli d wifi connect foo password bar iface wlan0
+</code></pre>
 
-<h2 id="automatic-loading-of-video-into-the-vod-server">Automatic loading of video into the VOD server</h2>
+<p>You might be greeted with some errors but ignore them, you should be connected to your AP.</p>
 
-<p>Say you want to automatically login to the telnet server, create the object and add the media files. Then it is possible to write a script for it</p>
+<p>Enjoy.</p>
 
-<ol>
-<li><p>Write a shell script as follows. Compare it with the above section to understand what is going on</p>
-
-<pre><code># The telnet password
-echo &quot;videolan&quot;
-sleep 2
-# Creating the video object
-echo &quot;new myvideo vod enabled&quot;
-sleep 2
-# Adding the media file to the object
-echo &quot;setup myvideo input path/to/video.mp4&quot;
-sleep 2
-# Exiting telnet
-echo &quot;quit&quot;
-</code></pre></li>
-
-<li><p>Run the script as follows</p>
-
-<pre><code>sh script_name.sh | telnet 0.0.0.0 4212
-</code></pre></li>
-</ol>
-
-<p>This should be really handy during automation</p>
+<p><a href="https://askubuntu.com/questions/461825/how-to-connect-to-wifi-from-the-command-line/461831#461831">Source : Stackoverflow</a></p>
 
 </div>
 
@@ -282,13 +260,13 @@ echo &quot;quit&quot;
   
 
     
-    <a class="prev" href="https://thexavier666.github.io/2017/07/16/creating-a-samba-drive-in-linux/" title="Creating a Samba drive in Linux">
+    <a class="prev" href="https://thexavier666.github.io/2017/07/17/starting-a-vlc-video-on-demand-server-in-linux/" title="Starting a VLC Video-on-Demand Server in Linux">
       Previous
     </a>
     
 
     
-    <a class="next" href="https://thexavier666.github.io/2018/02/22/connecting-to-wifi-via-the-terminal-in-linux/" title="Connecting to WIFI via the terminal in Linux">
+    <a class="next" href="https://thexavier666.github.io/2018/02/22/using-the-asus-ac56-in-linux/" title="Using the Asus AC56 in Linux">
       Next
     </a>
     

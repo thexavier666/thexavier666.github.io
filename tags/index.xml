@@ -9,10 +9,28 @@
     <managingEditor>sumitros@gmail.com (Sumitro Bhaumik)</managingEditor>
     <webMaster>sumitros@gmail.com (Sumitro Bhaumik)</webMaster>
     <copyright>(c) 2017 Sumitro Bhaumik</copyright>
-    <lastBuildDate>Mon, 19 Jun 2017 19:41:32 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 22 Feb 2018 20:47:44 +0530</lastBuildDate>
     
 	<atom:link href="https://thexavier666.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ap</title>
+      <link>https://thexavier666.github.io/tags/ap/</link>
+      <pubDate>Thu, 22 Feb 2018 20:47:44 +0530</pubDate>
+      <author>sumitros@gmail.com (Sumitro Bhaumik)</author>
+      <guid>https://thexavier666.github.io/tags/ap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Asus</title>
+      <link>https://thexavier666.github.io/tags/asus/</link>
+      <pubDate>Thu, 22 Feb 2018 21:51:02 +0530</pubDate>
+      <author>sumitros@gmail.com (Sumitro Bhaumik)</author>
+      <guid>https://thexavier666.github.io/tags/asus/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Excited</title>
@@ -74,6 +92,15 @@
       <pubDate>Sun, 16 Jul 2017 21:48:03 +0530</pubDate>
       <author>sumitros@gmail.com (Sumitro Bhaumik)</author>
       <guid>https://thexavier666.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Networking</title>
+      <link>https://thexavier666.github.io/tags/networking/</link>
+      <pubDate>Thu, 22 Feb 2018 20:47:44 +0530</pubDate>
+      <author>sumitros@gmail.com (Sumitro Bhaumik)</author>
+      <guid>https://thexavier666.github.io/tags/networking/</guid>
       <description></description>
     </item>
     
@@ -155,6 +182,15 @@
       <pubDate>Mon, 17 Jul 2017 19:28:23 +0530</pubDate>
       <author>sumitros@gmail.com (Sumitro Bhaumik)</author>
       <guid>https://thexavier666.github.io/tags/vod/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wifi</title>
+      <link>https://thexavier666.github.io/tags/wifi/</link>
+      <pubDate>Thu, 22 Feb 2018 21:51:02 +0530</pubDate>
+      <author>sumitros@gmail.com (Sumitro Bhaumik)</author>
+      <guid>https://thexavier666.github.io/tags/wifi/</guid>
       <description></description>
     </item>
     

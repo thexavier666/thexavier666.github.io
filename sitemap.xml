@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://thexavier666.github.io/2018/02/22/using-the-asus-ac56-in-linux/</loc>
+    <lastmod>2018-02-22T21:51:02+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thexavier666.github.io/2018/02/22/connecting-to-wifi-via-the-terminal-in-linux/</loc>
+    <lastmod>2018-02-22T20:47:44+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://thexavier666.github.io/2017/07/17/starting-a-vlc-video-on-demand-server-in-linux/</loc>
     <lastmod>2017-07-17T19:28:23+05:30</lastmod>
   </url>
@@ -48,6 +58,18 @@
   </url>
   
   <url>
+    <loc>https://thexavier666.github.io/tags/ap/</loc>
+    <lastmod>2018-02-22T20:47:44+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://thexavier666.github.io/tags/asus/</loc>
+    <lastmod>2018-02-22T21:51:02+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://thexavier666.github.io/tags/excited/</loc>
     <lastmod>2017-06-19T19:41:32+05:30</lastmod>
     <priority>0</priority>
@@ -85,13 +107,19 @@
   
   <url>
     <loc>https://thexavier666.github.io/</loc>
-    <lastmod>2017-07-17T19:28:23+05:30</lastmod>
+    <lastmod>2018-02-22T21:51:02+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://thexavier666.github.io/tags/linux/</loc>
     <lastmod>2017-07-16T21:48:03+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://thexavier666.github.io/tags/networking/</loc>
+    <lastmod>2018-02-22T20:47:44+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -109,7 +137,7 @@
   
   <url>
     <loc>https://thexavier666.github.io/post/</loc>
-    <lastmod>2017-07-17T19:28:23+05:30</lastmod>
+    <lastmod>2018-02-22T21:51:02+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -139,19 +167,19 @@
   
   <url>
     <loc>https://thexavier666.github.io/tags/</loc>
-    <lastmod>2017-06-19T19:41:32+05:30</lastmod>
+    <lastmod>2018-02-22T20:47:44+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://thexavier666.github.io/topics/topic-1/</loc>
-    <lastmod>2017-07-17T19:28:23+05:30</lastmod>
+    <lastmod>2018-02-22T21:51:02+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://thexavier666.github.io/topics/</loc>
-    <lastmod>2017-07-17T19:28:23+05:30</lastmod>
+    <lastmod>2018-02-22T21:51:02+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -170,6 +198,12 @@
   <url>
     <loc>https://thexavier666.github.io/tags/vod/</loc>
     <lastmod>2017-07-17T19:28:23+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://thexavier666.github.io/tags/wifi/</loc>
+    <lastmod>2018-02-22T21:51:02+05:30</lastmod>
     <priority>0</priority>
   </url>
   
