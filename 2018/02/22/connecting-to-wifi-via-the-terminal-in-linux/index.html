@@ -59,7 +59,7 @@
     },
     "datePublished": "2018-02-22",
     "description": "Showing an easy way to connect to wifi APs when GUI is missing",
-    "wordCount": 236
+    "wordCount": 219
   }
 </script>
 
@@ -190,7 +190,7 @@
     &middot; by author
   
   &middot; Read in about 2 min
-  &middot; (236 Words)
+  &middot; (219 Words)
   <br>
   
 <a class="label" href="https://thexavier666.github.io/tags/wifi">wifi</a>
@@ -241,10 +241,8 @@ I&rsquo;m assuming the name of the AP to be <code>foo</code> and the password to
 
 <p>Using this method, you should be able to connect, but I&rsquo;ve found this to be unreliable. I&rsquo;ve found another solution which uses the CLI of <code>Network Manager</code>. Keep it in mind that this might not be available in all versions of Linux. But this quite stable and simple and a one-liner.</p>
 
-<pre><code>nmcli d wifi connect foo password bar iface wlan0
+<pre><code>nmcli d wifi connect foo password bar ifname wlan0
 </code></pre>
-
-<p>You might be greeted with some errors but ignore them, you should be connected to your AP.</p>
 
 <p>Enjoy.</p>
 
